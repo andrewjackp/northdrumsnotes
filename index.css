@@ -1,0 +1,80 @@
+
+
+.container{
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url("northdrums.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont,  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(149, 103, 16);
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(149, 103, 16);
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(35, 24, 4);
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button:after {
+    content: '😁';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+#increment-btn {
+    background: rgb(106, 213, 211);
+}
+
+#save-btn {
+    background: rgb(109, 193, 109);
+}
+
